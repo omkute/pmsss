@@ -63,7 +63,7 @@ $(function() {
 					$('.modal').modal('hide');
 					if(data.status == true){
 						$('#resultDetails_view').html(data.html);
-						$('.preloader').removeClass('');
+						//$('.preloader').removeClass('');
 						window.oncontextmenu = function () {
 							showMsgModel("Error",'Right Click and Input Facilities are disabled for security reason');
 							return false;
